@@ -1,0 +1,49 @@
+{
+	"name": "the-coder-city-theme",
+	"displayName": "The Coder City Theme",
+	"description": "Dark theme with a taste of the universe",
+	"version": "1.0.0",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#23262E",
+		"theme": "dark"
+	},
+	"publisher": "TheCoderCity",
+	"author": {
+		"name": "The Coder City",
+		"url": "https://github.com/thecodercity",
+		"email": "admin@thecodercity.com"
+	},
+	"repository": {
+		"url": "https://github.com/thecodercity/thecodercity-theme"
+	},
+    "keywords": [
+        "theme",
+        "dark theme",
+        "color theme",
+        "the coder city",
+        "coder city",
+        "codercity",
+        "thecodercity"
+    ],	
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "The Coder City Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/TheCoderCity-dark.json"
+			},
+			{
+				"label": "The Coder City Colorizer",
+				"uiTheme": "vs-dark",
+				"path": "./themes/TheCoderCity-colorizer.json"
+			}
+		]
+	}
+}
